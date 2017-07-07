@@ -25,6 +25,9 @@ Tesseract OCR를 이용하여 화면에 있는 문자를 인식하고, Azure Tra
 * 먼저 번역 모드에서 영역 선택을 통하여 캡처할 영역을 설정합니다. (Shift+S)
 * Azure 구독 키를 확인하고 번역을 시작합니다. (Shift+A)
 
+## 개발자
+프로그램을 수정하기 위해선 Tesseract OCR의 ".lib" 파일들과 cpprestsdk NuGet 패키지가 필요합니다.
+
 ---
 
 # ![Logo](./Logo.jpg) Screen Text Translator
@@ -53,3 +56,6 @@ Tesseract A program that uses OCR to recognize characters on the screen and tran
 
 - First, set the area to capture by selecting the area in the translation mode. (Shift + S)
 - Check your Azure subscription key and start translating. (Shift + A)
+
+## For Developers
+To fix the program, you need the ".lib" files from Tesseract OCR and the cpprestsdk NuGet package.
