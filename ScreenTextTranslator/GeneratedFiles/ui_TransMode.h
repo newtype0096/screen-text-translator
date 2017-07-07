@@ -42,6 +42,9 @@ public:
         if (Form_TransMode->objectName().isEmpty())
             Form_TransMode->setObjectName(QStringLiteral("Form_TransMode"));
         Form_TransMode->resize(822, 183);
+        QFont font;
+        font.setPointSize(9);
+        Form_TransMode->setFont(font);
         QIcon icon;
         icon.addFile(QStringLiteral(":/ScreenTextTranslator/Logo.jpg"), QSize(), QIcon::Normal, QIcon::Off);
         Form_TransMode->setWindowIcon(icon);

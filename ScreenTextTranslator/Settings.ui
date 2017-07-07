@@ -25,6 +25,11 @@
     <height>201</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>설정</string>
   </property>
@@ -50,7 +55,7 @@
       <x>10</x>
       <y>20</y>
       <width>361</width>
-      <height>44</height>
+      <height>41</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -126,8 +131,8 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>106</width>
-      <height>44</height>
+      <width>130</width>
+      <height>41</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">

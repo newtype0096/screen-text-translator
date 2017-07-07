@@ -54,6 +54,9 @@ public:
         if (ScreenTextTranslatorClass->objectName().isEmpty())
             ScreenTextTranslatorClass->setObjectName(QStringLiteral("ScreenTextTranslatorClass"));
         ScreenTextTranslatorClass->resize(460, 402);
+        QFont font;
+        font.setPointSize(9);
+        ScreenTextTranslatorClass->setFont(font);
         QIcon icon;
         icon.addFile(QStringLiteral(":/ScreenTextTranslator/Logo.jpg"), QSize(), QIcon::Normal, QIcon::Off);
         ScreenTextTranslatorClass->setWindowIcon(icon);

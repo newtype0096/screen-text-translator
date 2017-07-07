@@ -10,6 +10,11 @@
     <height>402</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>화면 문자 번역기 (Screen Text Translator)</string>
   </property>

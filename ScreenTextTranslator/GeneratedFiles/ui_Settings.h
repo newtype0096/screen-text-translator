@@ -50,6 +50,9 @@ public:
         Form_Settings->resize(401, 201);
         Form_Settings->setMinimumSize(QSize(401, 201));
         Form_Settings->setMaximumSize(QSize(401, 201));
+        QFont font;
+        font.setPointSize(9);
+        Form_Settings->setFont(font);
         QIcon icon;
         icon.addFile(QStringLiteral(":/ScreenTextTranslator/Logo.jpg"), QSize(), QIcon::Normal, QIcon::Off);
         Form_Settings->setWindowIcon(icon);
@@ -58,7 +61,7 @@ public:
         groupBox->setGeometry(QRect(10, 90, 381, 71));
         gridLayoutWidget = new QWidget(groupBox);
         gridLayoutWidget->setObjectName(QStringLiteral("gridLayoutWidget"));
-        gridLayoutWidget->setGeometry(QRect(10, 20, 361, 44));
+        gridLayoutWidget->setGeometry(QRect(10, 20, 361, 41));
         gridLayout = new QGridLayout(gridLayoutWidget);
         gridLayout->setObjectName(QStringLiteral("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
@@ -93,7 +96,7 @@ public:
         groupBox_2->setGeometry(QRect(10, 10, 381, 71));
         gridLayoutWidget_2 = new QWidget(groupBox_2);
         gridLayoutWidget_2->setObjectName(QStringLiteral("gridLayoutWidget_2"));
-        gridLayoutWidget_2->setGeometry(QRect(10, 20, 106, 44));
+        gridLayoutWidget_2->setGeometry(QRect(10, 20, 130, 41));
         gridLayout_2 = new QGridLayout(gridLayoutWidget_2);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);

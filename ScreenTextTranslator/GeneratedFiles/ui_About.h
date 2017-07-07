@@ -16,6 +16,7 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -32,6 +33,7 @@ public:
     QLabel *label_3;
     QLabel *label_4;
     QLabel *label_5;
+    QSpacerItem *verticalSpacer;
     QLabel *label_6;
     QLabel *label_7;
 
@@ -43,6 +45,9 @@ public:
         Form_About->resize(461, 198);
         Form_About->setMinimumSize(QSize(461, 198));
         Form_About->setMaximumSize(QSize(461, 198));
+        QFont font;
+        font.setPointSize(9);
+        Form_About->setFont(font);
         QIcon icon;
         icon.addFile(QStringLiteral(":/ScreenTextTranslator/Logo.jpg"), QSize(), QIcon::Normal, QIcon::Off);
         Form_About->setWindowIcon(icon);
@@ -57,14 +62,14 @@ public:
         label_2 = new QLabel(Form_About);
         label_2->setObjectName(QStringLiteral("label_2"));
         label_2->setGeometry(QRect(150, 20, 291, 16));
-        QFont font;
-        font.setPointSize(10);
-        font.setBold(true);
-        font.setWeight(75);
-        label_2->setFont(font);
+        QFont font1;
+        font1.setPointSize(10);
+        font1.setBold(true);
+        font1.setWeight(75);
+        label_2->setFont(font1);
         verticalLayoutWidget = new QWidget(Form_About);
         verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(150, 70, 311, 51));
+        verticalLayoutWidget->setGeometry(QRect(150, 70, 618, 86));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -83,13 +88,24 @@ public:
 
         verticalLayout->addWidget(label_5);
 
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer);
+
         label_6 = new QLabel(Form_About);
         label_6->setObjectName(QStringLiteral("label_6"));
         label_6->setGeometry(QRect(150, 140, 161, 16));
         label_7 = new QLabel(Form_About);
         label_7->setObjectName(QStringLiteral("label_7"));
         label_7->setGeometry(QRect(150, 40, 291, 16));
-        label_7->setFont(font);
+        label_7->setFont(font1);
+        pushButton_Close->raise();
+        label->raise();
+        label_2->raise();
+        verticalLayoutWidget->raise();
+        label_6->raise();
+        label_7->raise();
+        label_5->raise();
 
         retranslateUi(Form_About);
         QObject::connect(pushButton_Close, SIGNAL(clicked()), Form_About, SLOT(close()));

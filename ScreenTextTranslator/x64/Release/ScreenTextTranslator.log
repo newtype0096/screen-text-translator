@@ -1,4 +1,8 @@
-﻿  ScreenTextTranslator.cpp
+﻿  Uic'ing ScreenTextTranslator.ui...
+  Uic'ing About.ui...
+  Uic'ing Settings.ui...
+  Uic'ing TransMode.ui...
+  moc_ScreenTextTranslator.cpp
 C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/mat.hpp(2586): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -8,6 +12,27 @@ C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp : warni
 C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp(592): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(532): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ScreenTextTranslator.cpp
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/mat.hpp(2586): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\m\desktop\real\screentexttranslator\header\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp(592): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(532): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  main.cpp
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/mat.hpp(2586): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\m\desktop\real\screentexttranslator\header\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp(592): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(532): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
   libtesseract.lib(baseapi.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
   코드를 생성하고 있습니다.
   
@@ -28,14 +53,14 @@ C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(
   c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(124) : info C5001: 루프가 벡터화되었습니다.
   c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(185) : info C5001: 루프가 벡터화되었습니다.
   
+  --- 기능 분석: opj_mct_decode
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(187) : info C5001: 루프가 벡터화되었습니다.
+  
   --- 기능 분석: opj_mct_decode_real
   c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(422) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: opj_mct_encode
   c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(127) : info C5001: 루프가 벡터화되었습니다.
-  
-  --- 기능 분석: opj_mct_decode
-  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(187) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: opj_tcd_dc_level_shift_encode
   c:\users\m\desktop\github\vs2015_tesseract\openjpeg\tcd.c(1918) : info C5001: 루프가 벡터화되었습니다.
@@ -47,11 +72,11 @@ C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(
   --- 기능 분석: PredictLineTop
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters_sse2.c(50) : info C5001: 루프가 벡터화되었습니다.
   
-  --- 기능 분석: ExtraCostCombined
-  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(624) : info C5001: 루프가 벡터화되었습니다.
-  
   --- 기능 분석: ExtraCost
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(616) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: ExtraCostCombined
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(624) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: VP8LSubtractGreenFromBlueAndRed_C
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
@@ -87,11 +112,11 @@ C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(
   --- 기능 분석: png_setup_paeth_row_only
   c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2494) : info C5001: 루프가 벡터화되었습니다.
   
-  --- 기능 분석: png_setup_sub_row_only
-  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2310) : info C5001: 루프가 벡터화되었습니다.
-  
   --- 기능 분석: png_setup_up_row_only
   c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2354) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_setup_sub_row_only
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2310) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: png_do_invert
   c:\users\m\desktop\github\vs2015_tesseract\libpng\pngtrans.c(275) : info C5001: 루프가 벡터화되었습니다.
@@ -168,17 +193,17 @@ c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.h(425)
   --- 기능 분석: GenerateOptimalTree
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\utils\huffman_encode.c(174) : info C5001: 루프가 벡터화되었습니다.
   
+  --- 기능 분석: SubtractGreenFromBlueAndRed
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: SubtractGreenFromBlueAndRed
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
+  
   --- 기능 분석: PredictorSub1_C
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(813) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: PredictorSub0_C
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(806) : info C5001: 루프가 벡터화되었습니다.
-  
-  --- 기능 분석: SubtractGreenFromBlueAndRed
-  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
-  
-  --- 기능 분석: SubtractGreenFromBlueAndRed
-  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: HistogramAdd
   c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(640) : info C5001: 루프가 벡터화되었습니다.
@@ -226,24 +251,24 @@ c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.h(425)
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1376) : info C5001: 루프가 벡터화되었습니다.
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1382) : info C5001: 루프가 벡터화되었습니다.
   
-  --- 기능 분석: pixNumColors
-  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorcontent.c(1327) : info C5001: 루프가 벡터화되었습니다.
-  
-  --- 기능 분석: pixEndianByteSwap
-  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix2.c(2940) : info C5001: 루프가 벡터화되었습니다.
-  
-  --- 기능 분석: pixGetLinePtrs
-  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix1.c(1791) : info C5001: 루프가 벡터화되었습니다.
-  
   --- 기능 분석: pixMultConstAccumulate
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(839) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixNumColors
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorcontent.c(1327) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: pixAccumulate
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(789) : info C5001: 루프가 벡터화되었습니다.
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(792) : info C5001: 루프가 벡터화되었습니다.
   
+  --- 기능 분석: pixEndianByteSwap
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix2.c(2940) : info C5001: 루프가 벡터화되었습니다.
+  
   --- 기능 분석: pixSetComponentArbitrary
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix2.c(1005) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixGetLinePtrs
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix1.c(1791) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: void __cdecl InitIntegerFX(void)
   c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\intfx.cpp(59) : info C5001: 루프가 벡터화되었습니다.
@@ -390,11 +415,11 @@ c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\lm_state.cpp(6
   c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixconv.c(3134) : info C5001: 루프가 벡터화되었습니다.
 c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\lm_state.h(196): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
   
-  --- 기능 분석: virtual void __cdecl tesseract::HybridNeuralNetCharClassifier::Fold(void) __ptr64
-  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\cube\hybrid_neural_net_classifier.cpp(118) : info C5001: 루프가 벡터화되었습니다.
-  
   --- 기능 분석: virtual void __cdecl tesseract::ConvNetCharClassifier::Fold(void) __ptr64
   c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\cube\conv_net_classifier.cpp(122) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: virtual void __cdecl tesseract::HybridNeuralNetCharClassifier::Fold(void) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\cube\hybrid_neural_net_classifier.cpp(118) : info C5001: 루프가 벡터화되었습니다.
   
   --- 기능 분석: int __cdecl tesseract::Classify::PruneClasses(struct INT_TEMPLATES_STRUCT const * __ptr64,int,int,struct INT_FEATURE_STRUCT const * __ptr64,unsigned char const * __ptr64,unsigned short const * __ptr64,class GenericVector<struct CP_RESULT_STRUCT> * __ptr64) __ptr64
   c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\intmatcher.cpp(248) : info C5001: 루프가 벡터화되었습니다.
