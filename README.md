@@ -2,7 +2,7 @@
 
 OpenCV를 이용하여 선택한 영역에 있는 화면을 캡처 후
 
-Tesseract OCR과 Azure TranslatorAPI를 이용하여 화면에 있는 문자를 인식하여 번역하는 프로그램입니다.
+Tesseract OCR를 이용하여 화면에 있는 문자를 인식하고, Azure TranslatorAPI를 이용하여 번역하는 프로그램입니다.
 
 ## 개발도구
 
