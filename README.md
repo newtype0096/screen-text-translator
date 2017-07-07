@@ -25,6 +25,8 @@ Tesseract OCR를 이용하여 화면에 있는 문자를 인식하고, Azure Tra
 * 먼저 번역 모드에서 영역 선택을 통하여 캡처할 영역을 설정합니다. (Shift+S)
 * Azure 구독 키를 확인하고 번역을 시작합니다. (Shift+A)
 
+---
+
 # ![Logo](./Logo.jpg) Screen Text Translator
 
 After capturing the screen in the selected area using OpenCV
