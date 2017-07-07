@@ -1,3 +1,3 @@
-
 # ![Logo](./Logo.jpg) 화면 문자 번역기
-C++ REST SDK(Casablanca) / Tesseract 3.05 / OpenCV 3.2.0 / Qt 5 / tinyxml2
+
+Tesseract OCR과 Azure TranslatorAPI를 이용하여 화면에 있는 문자를 캡처하여 번역하는 프로그램입니다.
