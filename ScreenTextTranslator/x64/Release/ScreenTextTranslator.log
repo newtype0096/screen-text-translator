@@ -1,0 +1,416 @@
+﻿  ScreenTextTranslator.cpp
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/mat.hpp(2586): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\m\desktop\real\screentexttranslator\header\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/imgproc.hpp(592): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\M\Desktop\Real\ScreenTextTranslator\\header\opencv2/video/tracking.hpp(532): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  libtesseract.lib(baseapi.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+  코드를 생성하고 있습니다.
+  
+  --- 기능 분석: forward_DCT_float
+  c:\users\m\desktop\github\vs2015_tesseract\libjpeg\jcdctmgr.c(161) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: rgb_ycc_start
+  c:\users\m\desktop\github\vs2015_tesseract\libjpeg\jccolor.c(110) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: build_rgb_y_table
+  c:\users\m\desktop\github\vs2015_tesseract\libjpeg\jdcolor.c(265) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_lupSolve
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(235) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(258) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_lupDecompose
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(124) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(185) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_mct_decode_real
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(422) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_mct_encode
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(127) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_mct_decode
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(187) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_tcd_dc_level_shift_encode
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\tcd.c(1918) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\tcd.c(1924) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: PredictLineLeft
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters_sse2.c(68) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: PredictLineTop
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters_sse2.c(50) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: ExtraCostCombined
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(624) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: ExtraCost
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(616) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: VP8LSubtractGreenFromBlueAndRed_C
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: QuantizeLevels
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\utils\quant_levels.c(106) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: SmartYUVUpdateRGB_SSE2
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\yuv_sse2.c(791) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: VP8LAddGreenToBlueAndRed_C
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(245) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: PredictLine
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(35) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: SmartYUVUpdateRGB_C
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\yuv.c(270) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: InitGammaTablesF
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\enc\picture_csp.c(197) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: InitGammaTables
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\enc\picture_csp.c(99) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_init_palette_transformations
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngrtran.c(1180) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_read_filter_row_up
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngrutil.c(3820) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_setup_paeth_row_only
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2494) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_setup_sub_row_only
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2310) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_setup_up_row_only
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwutil.c(2354) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_do_invert
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngtrans.c(275) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: makeValTabSG8
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(2315) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: makeValTabSG6
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(2223) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: makeValTabSG4
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(2072) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: scaleBinaryLow
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1626) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1628) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: scaleSmoothLow
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1136) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1138) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1168) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: scaleBySamplingLow
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1005) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1007) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: makeRGBToIndexTables
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorquant1.c(1386) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorquant1.c(1393) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorquant1.c(1400) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorquant1.c(1410) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorquant1.c(1420) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorquant1.c(1433) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: makeLogBase2Tab
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(1499) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\mfoutline.cpp(410): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\mfoutline.cpp(414): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: bool __cdecl tesseract::TableFinder::GapInXProjection(int * __ptr64,int) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\tablefind.cpp(1779) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: int __cdecl tesseract::OtsuStats(int const * __ptr64,int * __ptr64,int * __ptr64)
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\otsuthr.cpp(179) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: int __cdecl WERD_CHOICE::TotalOfStates(void)const __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.cpp(699) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.h(444): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.h(423): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.h(425): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: start_pass
+  c:\users\m\desktop\github\vs2015_tesseract\libjpeg\jddctmgr.c(312) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_lupInvert
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(235) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\invert.c(258) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_mct_decode_custom
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(527) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_mct_encode_custom
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\mct.c(470) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: HistogramAdd
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc_sse2.c(251) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: VerticalUnfilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters_sse2.c(259) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: DoHorizontalFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters_sse2.c(68) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: GenerateOptimalTree
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\utils\huffman_encode.c(174) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: PredictorSub1_C
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(813) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: PredictorSub0_C
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(806) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: SubtractGreenFromBlueAndRed
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: SubtractGreenFromBlueAndRed
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(503) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: HistogramAdd
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(640) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless_enc.c(652) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: FastMBAnalyze
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\enc\analysis.c(275) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: PredictorAdd0
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(170) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: CopyOrSwap
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(497) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: VerticalUnfilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(203) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: DoGradientFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(35) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: DoVerticalFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(35) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(35) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: DoHorizontalFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(35) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(35) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: SetSegmentAlphas
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\enc\analysis.c(84) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: ConvertARGBToY
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\yuv.c(173) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: BuildMapBitdepth16To8
+  c:\users\m\desktop\github\vs2015_tesseract\libtiff\tif_getimage.c(2832) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: scaleColorAreaMapLow
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1352) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1376) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\scalelow.c(1382) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixNumColors
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\colorcontent.c(1327) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixEndianByteSwap
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix2.c(2940) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixGetLinePtrs
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix1.c(1791) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixMultConstAccumulate
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(839) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixAccumulate
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(789) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(792) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixSetComponentArbitrary
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix2.c(1005) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl InitIntegerFX(void)
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\intfx.cpp(59) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: float __cdecl tesseract::ParamsModel::ComputeCost(float const * __ptr64 const)const __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\params_model.cpp(80) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: struct MATRIX_COORD __cdecl WERD_CHOICE::MatrixCoord(int)const __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\ratngs.cpp(282) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: int __cdecl LeadingUnicharsToChopped(class WERD_RES * __ptr64,int)
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccmain\superscript.cpp(25) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: int __cdecl TrailingUnicharsToChopped(class WERD_RES * __ptr64,int)
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccmain\superscript.cpp(32) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl compute_occupation_threshold(int,int,int,int * __ptr64,int * __ptr64)
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\makerow.cpp(853) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\makerow.cpp(895) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: ConvertARGBToY
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\yuv_sse2.c(630) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: VP8LConvertFromBGRA
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(497) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(497) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: GradientFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: VerticalFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: HorizontalFilter
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\filters.c(37) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: EmitRows
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(497) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dsp\lossless.c(497) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: numaGetSortIndex
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\numafunc1.c(2642) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_j2k_dump_MH_index
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\j2k.c(9475) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl rasteropWordAlignedLow(unsigned int * __ptr64,int,int,int,int,int,int,unsigned int * __ptr64,int,int,int)
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(654) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(667) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(680) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(693) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(706) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(719) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(732) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(745) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(758) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(771) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(785) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl rasteropUniGeneralLow(unsigned int * __ptr64,int,int,int,int,int,int)
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(429) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl rasteropVAlignedLow(unsigned int * __ptr64,int,int,int,int,int,int,unsigned int * __ptr64,int,int,int)
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(964) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(994) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1025) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1056) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1087) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1118) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1149) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1180) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1211) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1242) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(1274) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl rasteropUniWordAlignedLow(unsigned int * __ptr64,int,int,int,int,int,int)
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: EGifPutLine
+  c:\users\m\desktop\github\vs2015_tesseract\giflib\egif_lib.c(468) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: TIFFReadDirEntryFloatArray
+  c:\users\m\desktop\github\vs2015_tesseract\libtiff\tif_dirread.c(2409) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\classify.cpp(228): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\pitsync1.cpp(386): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: float __cdecl `anonymous namespace'::LocalCorrelation::EstimateYFor(float,float) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\cjkpitch.cpp(152) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: opj_t1_clbl_decode_processor
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\t1.c(1716) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\openjpeg\t1.c(1725) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: ReadHuffmanCodes
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dec\vp8l.c(383) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\dec\vp8l.c(443) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixFinalAccumulate
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixarith.c(638) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl tesseract::FeatureChebyshev::ChebyshevCoefficients(class std::vector<float,class std::allocator<float> > const & __ptr64,int,float * __ptr64) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\cube\feature_chebyshev.cpp(68) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\dict\stopper.cpp(472): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: float __cdecl tesseract::LanguageModel::ComputeAdjustedPathCost(struct tesseract::ViterbiStateEntry * __ptr64) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\params_model.cpp(80) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\normmatch.cpp(114): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\chopper.cpp(545): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\chopper.cpp(547): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\chopper.cpp(552): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccstruct\normalis.cpp(434): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: pixSetAll
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixClearAll
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixEndianByteSwapNew
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix2.c(2880) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixClipToForeground
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix5.c(1484) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pix5.c(1497) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: void __cdecl tesseract::ShiroRekhaSplitter::SplitWordShiroRekha(enum tesseract::ShiroRekhaSplitter::SplitStrategy,struct Pix * __ptr64,int,int,int,struct Boxa * __ptr64) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\devanagari_processing.cpp(305) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\adaptmatch.cpp(1482): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: pixErode
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\lm_state.cpp(66): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: pixDistanceFunction
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\roplow.c(252) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixConvert8To32
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pixconv.c(3134) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\lm_state.h(196): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: virtual void __cdecl tesseract::HybridNeuralNetCharClassifier::Fold(void) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\cube\hybrid_neural_net_classifier.cpp(118) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: virtual void __cdecl tesseract::ConvNetCharClassifier::Fold(void) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\cube\conv_net_classifier.cpp(122) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: int __cdecl tesseract::Classify::PruneClasses(struct INT_TEMPLATES_STRUCT const * __ptr64,int,int,struct INT_FEATURE_STRUCT const * __ptr64,unsigned char const * __ptr64,unsigned short const * __ptr64,class GenericVector<struct CP_RESULT_STRUCT> * __ptr64) __ptr64
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\classify\intmatcher.cpp(248) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: png_write_info
+  c:\users\m\desktop\github\vs2015_tesseract\libpng\pngwrite.c(226) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: EncodeImageInternal
+  c:\users\m\desktop\github\vs2015_tesseract\libwebp\src\enc\vp8l.c(908) : info C5001: 루프가 벡터화되었습니다.
+  
+  --- 기능 분석: pixWriteStreamPng
+  c:\users\m\desktop\github\vs2015_tesseract\leptonica\src\pngio.c(1176) : info C5001: 루프가 벡터화되었습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\wordrec\chopper.cpp(335): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\textord\tordmain.cpp(750): warning C4756: 상수 산술 연산에서 오버플로가 발생했습니다.
+  
+  --- 기능 분석: void __cdecl tesseract::DetectParagraphs(int,bool,class tesseract::MutableIterator const * __ptr64,class GenericVector<class ParagraphModel * __ptr64> * __ptr64)
+  c:\users\m\desktop\github\vs2015_tesseract\tesseract_3.05\ccmain\paragraphs.cpp(2544) : info C5001: 루프가 벡터화되었습니다.
+  코드를 생성했습니다.
+  ScreenTextTranslator.vcxproj -> C:\Users\M\Desktop\Real\ScreenTextTranslator\x64\Release\ScreenTextTranslator.exe

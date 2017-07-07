@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/ScreenTextTranslator">
+        <file>Start.png</file>
+        <file>Stop.png</file>
+        <file>Settings.png</file>
+        <file>Exit.png</file>
+        <file>Ocr.png</file>
+        <file>Azure.png</file>
+        <file>Logo.jpg</file>
+        <file>Info.png</file>
+        <file>ROI.png</file>
+    </qresource>
+</RCC>

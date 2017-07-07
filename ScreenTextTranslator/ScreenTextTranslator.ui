@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScreenTextTranslatorClass</class>
+ <widget class="QMainWindow" name="ScreenTextTranslatorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>화면 문자 번역기 (Screen Text Translator)</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ScreenTextTranslator.qrc">
+    <normaloff>:/ScreenTextTranslator/Logo.jpg</normaloff>:/ScreenTextTranslator/Logo.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>출발어</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QComboBox" name="comboBox_Start">
+        <item>
+         <property name="text">
+          <string>영어</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>도착어</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox_Arrive">
+        <item>
+         <property name="text">
+          <string>한국어</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>OCR</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="textBrowser_OCR"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>번역문</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="textBrowser_Trans"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMode"/>
+   <addaction name="separator"/>
+   <addaction name="actionOcrTest"/>
+   <addaction name="actionTransTextTest"/>
+   <addaction name="separator"/>
+   <addaction name="actionSettings"/>
+   <addaction name="separator"/>
+   <addaction name="actionInfo"/>
+   <addaction name="separator"/>
+   <addaction name="actionExit"/>
+  </widget>
+  <action name="actionMode">
+   <property name="icon">
+    <iconset resource="ScreenTextTranslator.qrc">
+     <normaloff>:/ScreenTextTranslator/Start.png</normaloff>:/ScreenTextTranslator/Start.png</iconset>
+   </property>
+   <property name="text">
+    <string>번역 모드</string>
+   </property>
+   <property name="toolTip">
+    <string>번역 모드로 변경 합니다. (Ctrl+F5)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F5</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset resource="ScreenTextTranslator.qrc">
+     <normaloff>:/ScreenTextTranslator/Settings.png</normaloff>:/ScreenTextTranslator/Settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>설정</string>
+   </property>
+   <property name="toolTip">
+    <string>설정을 관리 합니다.</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="ScreenTextTranslator.qrc">
+     <normaloff>:/ScreenTextTranslator/Exit.png</normaloff>:/ScreenTextTranslator/Exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>종료</string>
+   </property>
+   <property name="toolTip">
+    <string>프로그램을 종료 합니다.</string>
+   </property>
+  </action>
+  <action name="actionOcrTest">
+   <property name="icon">
+    <iconset resource="ScreenTextTranslator.qrc">
+     <normaloff>:/ScreenTextTranslator/Ocr.png</normaloff>:/ScreenTextTranslator/Ocr.png</iconset>
+   </property>
+   <property name="text">
+    <string>OCR 테스트</string>
+   </property>
+   <property name="toolTip">
+    <string>캡처할 영역을 선택 후 OCR을 테스트 합니다. (Ctrl+F6)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F6</string>
+   </property>
+  </action>
+  <action name="actionTransTextTest">
+   <property name="icon">
+    <iconset resource="ScreenTextTranslator.qrc">
+     <normaloff>:/ScreenTextTranslator/Azure.png</normaloff>:/ScreenTextTranslator/Azure.png</iconset>
+   </property>
+   <property name="text">
+    <string>번역 테스트</string>
+   </property>
+   <property name="toolTip">
+    <string>번역 API를 테스트 합니다. (Ctrl+F7)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F7</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="icon">
+    <iconset resource="ScreenTextTranslator.qrc">
+     <normaloff>:/ScreenTextTranslator/Info.png</normaloff>:/ScreenTextTranslator/Info.png</iconset>
+   </property>
+   <property name="text">
+    <string>정보</string>
+   </property>
+   <property name="toolTip">
+    <string>프로그램 정보를 확인 합니다.</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ScreenTextTranslator.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>ScreenTextTranslatorClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

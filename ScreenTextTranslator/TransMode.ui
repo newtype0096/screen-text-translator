@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_TransMode</class>
+ <widget class="QWidget" name="Form_TransMode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>183</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>번역 모드</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ScreenTextTranslator.qrc">
+    <normaloff>:/ScreenTextTranslator/Logo.jpg</normaloff>:/ScreenTextTranslator/Logo.jpg</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPlainTextEdit" name="plainTextEdit_TransText">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="toolButton_TransStart">
+       <property name="toolTip">
+        <string>선택한 영역에 있는 텍스트를 번역합니다. (Shift+A)</string>
+       </property>
+       <property name="text">
+        <string>번역 시작</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ScreenTextTranslator.qrc">
+         <normaloff>:/ScreenTextTranslator/Azure.png</normaloff>:/ScreenTextTranslator/Azure.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="shortcut">
+        <string>Shift+A</string>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_SelectROI">
+       <property name="toolTip">
+        <string>캡처할 영역을 선택합니다. (Shift+S)</string>
+       </property>
+       <property name="text">
+        <string>영역 선택</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ScreenTextTranslator.qrc">
+         <normaloff>:/ScreenTextTranslator/Ocr.png</normaloff>:/ScreenTextTranslator/Ocr.png</iconset>
+       </property>
+       <property name="shortcut">
+        <string>Shift+S</string>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_ShowROI">
+       <property name="toolTip">
+        <string>선택한 영역을 보여줍니다. (Shift+D)</string>
+       </property>
+       <property name="text">
+        <string>선택한 영역 보기</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ScreenTextTranslator.qrc">
+         <normaloff>:/ScreenTextTranslator/ROI.png</normaloff>:/ScreenTextTranslator/ROI.png</iconset>
+       </property>
+       <property name="shortcut">
+        <string>Shift+D</string>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_Settings">
+       <property name="text">
+        <string>설정</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ScreenTextTranslator.qrc">
+         <normaloff>:/ScreenTextTranslator/Settings.png</normaloff>:/ScreenTextTranslator/Settings.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Back">
+       <property name="text">
+        <string>돌아가기</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ScreenTextTranslator.qrc"/>
+ </resources>
+ <connections/>
+</ui>
