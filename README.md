@@ -27,7 +27,8 @@ Tesseract OCR를 이용하여 화면에 있는 문자를 인식하고, Azure Tra
 
 ## 개발자
 프로그램을 수정하기 위해선 Tesseract OCR의 ".lib" 파일들과 cpprestsdk NuGet 패키지가 필요합니다.
-
+* [VS2015_Tesseract](https://github.com/peirick/VS2015_Tesseract.git)
+* [cpprestsdk](https://github.com/Microsoft/cpprestsdk.git)
 ---
 
 # ![Logo](./Logo.jpg) Screen Text Translator
@@ -58,4 +59,6 @@ Tesseract A program that uses OCR to recognize characters on the screen and tran
 - Check your Azure subscription key and start translating. (Shift + A)
 
 ## For Developers
-To fix the program, you need the ".lib" files from Tesseract OCR and the cpprestsdk NuGet package.
+To edit the program, you need the ".lib" files from Tesseract OCR and the cpprestsdk NuGet package.
+* [VS2015_Tesseract](https://github.com/peirick/VS2015_Tesseract.git)
+* [cpprestsdk](https://github.com/Microsoft/cpprestsdk.git)
