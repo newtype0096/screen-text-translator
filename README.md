@@ -23,6 +23,8 @@ Tesseract OCR를 이용하여 화면에 있는 문자를 인식하고, Azure Tra
 ## 사용법
 
 * 먼저 번역 모드에서 영역 선택을 통하여 캡처할 영역을 설정합니다. (Shift+S)
+
+※ 설정한 영역에 다른 프로그램이 겹쳐지면 안됩니다.
 * Azure 구독 키를 확인하고 번역을 시작합니다. (Shift+A)
 
 ## 개발자
@@ -56,6 +58,8 @@ Tesseract A program that uses OCR to recognize characters on the screen and tran
 ## How to use
 
 - First, set the area to capture by selecting the area in the translation mode. (Shift + S)
+
+※ No other program should overlap the set area.
 - Check your Azure subscription key and start translating. (Shift + A)
 
 ## For Developers
